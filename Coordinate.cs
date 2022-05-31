@@ -8,12 +8,18 @@ namespace Life_Console
 {
     public class Coordinate
     {
-        public int X;
-        public int Y;
+        public int Y { get; set; }
+        public int X { get; set; }
+
+        /// <summary>
+        /// Creates a Coordinate
+        /// </summary>
+        /// <param name="y">Row | Vertical Position</param>
+        /// <param name="x">Column | Horizontal Position</param>
         public Coordinate(int y, int x)
         {
-            X = x;
-            Y = y;
+            Y = y; //vertical
+            X = x; //horizontal
         }
 
     }
