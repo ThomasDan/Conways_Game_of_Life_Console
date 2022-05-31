@@ -14,7 +14,7 @@ namespace Life_Console
         {
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.DarkYellow;
-            Console.WriteLine("\n############   C O N W A Y ' S   G A M E   O F   L I F E   ############\n\n\nBy Thomas C. A. Dänhardt  |  25/03-22 - Version 3: Revenge Of The Refactored!\n\n");
+            Console.WriteLine("\n############   C O N W A Y ' S   G A M E   O F   L I F E   ############\n\n\nBy Thomas C. A. Dänhardt  |  31/05-22 - Version 4: Feature Expansion!\n\n");
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("What would you like to do?\n-Custom\n-Tumble\n-Quit");
             return this.ReadLineLowered();
